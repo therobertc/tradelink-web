@@ -16,11 +16,16 @@ function App() {
 
     <div className="App" >
 
-      <div className='Top-bar'>
+      <div style={{ display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between'}} className='Top-bar' >
 
 
 
         <img src={tradelinklogo} className="tradelink-logo" alt="tradelink logo" />
+
+        <input style={{ color: '#fff', fontWeight: '500', borderRadius: 20, height: 40, width: 150, marginLeft: '20px', fontSize: 16,
+         backgroundColor: '#147efb', borderWidth: 0, marginRight: 100, textAlign: 'center',
+          alignItems: 'center', marginTop: 30, }} type="submit" value="Get Started"/>
+
 
       </div>
 
