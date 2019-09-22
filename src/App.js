@@ -105,21 +105,21 @@ function App() {
         <h1 style={{ textAlign: 'center' }}>
           Find Subscribers
             <p style={{ fontSize: 22 }}>
-            Growing your group is easy. If you already have a group, it's easy to import.
+            If you already have a group, it's easy to switch to Tradelink.
           </p>
         </h1>
 
-        <h1 style={{ textAlign: 'center', paddinfLeft: 30, paddingRight: 30 }}>
+        <h1 style={{ textAlign: 'center', paddingLeft: 30, paddingRight: 30 }}>
           Send Alerts
             <p style={{ fontSize: 22 }}>
-            Growing your group is easy. If you already have a group, it's easy to import.
+            Access live market data and send alerts to your subscribers in real-time.
           </p>
         </h1>
 
         <h1 style={{ textAlign: 'center' }}>
           Get Paid
           <p style={{ fontSize: 22 }}>
-            Growing your group is easy. If you already have a group, it's easy to import.
+            We make it easy to start a paid group whenever you're ready.
           </p>
         </h1>
 
