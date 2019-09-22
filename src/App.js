@@ -8,9 +8,9 @@ import NameForm from './NameForm'
 
 function App() {
 
-  
 
-  
+
+
   return (
 
 
@@ -24,18 +24,18 @@ function App() {
 
       </div>
 
-     {/*} <div style={{height: 20, backgroundColor: '#282c34', color: '#fff', paddingTop: 10, paddingLeft: 20, fontWeight: 500}}>
+      {/*} <div style={{height: 20, backgroundColor: '#282c34', color: '#fff', paddingTop: 10, paddingLeft: 20, fontWeight: 500}}>
 
         Trending Stocks
         
           
   </div>*/}
 
-    
 
-      
 
-     {/* <section class="card">
+
+
+      {/* <section class="card">
        
   <div style={{ borderRadius: 30}} class="card-content"> <p style={{ textAlign: 'center'}}> STOCK </p></div>
   <div style={{ borderRadius: 30}} class="card-content"> <p style={{ textAlign: 'center'}}> STOCK </p></div>
@@ -58,20 +58,24 @@ function App() {
 
   */}
 
-      
+
 
 
       <header className="App-header">
 
         <h1 style={{ paddingTop: 20, fontSize: 50, paddingBottom: 20, width: 500 }}>
-        The simplest way to start a trading group.
+          The simplest way to start a trading group.
         </h1>
 
-        <p style={{ paddingBottom: 50}}>
-          Find subscribers, send alerts, get paid.  
+        <p style={{ paddingBottom: 50 }}>
+          Find subscribers, send alerts, get paid.
         </p>
 
-        <NameForm/>
+        <NameForm />
+
+        <div style={{ height: 50 }}>
+
+        </div>
 
 
 
@@ -84,10 +88,68 @@ function App() {
           Download Beta
         </a>*/}
       </header>
+
+
+
+
+      <div style={{ display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between', align: 'center', paddingLeft: 200, paddingRight: 200, height: 300, alignItems: 'center' }}>
+
+
+
+
+        <h1 style={{ textAlign: 'center' }}>
+          Find Subscribers
+            <p style={{ fontSize: 22 }}>
+            Growing your group is easy. If you already have a group, it's easy to import.
+          </p>
+        </h1>
+
+        <h1 style={{ textAlign: 'center', paddinfLeft: 30, paddingRight: 30 }}>
+          Send Alerts
+            <p style={{ fontSize: 22 }}>
+            Growing your group is easy. If you already have a group, it's easy to import.
+          </p>
+        </h1>
+
+        <h1 style={{ textAlign: 'center' }}>
+          Get Paid
+          <p style={{ fontSize: 22 }}>
+            Growing your group is easy. If you already have a group, it's easy to import.
+          </p>
+        </h1>
+
+      </div>
+
+      <div style={{ backgroundColor: '#282c34', display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between', align: 'center', paddingLeft: 100, paddingRight: 200, height: 300, alignItems: 'center' }}>
+
+
+
+
+        <h1 style={{ color: '#fff', fontSize: 50, width: 500 }}>
+          Start a trading group.
+        </h1>
+
+        <NameForm />
+      </div>
+
+        <div style={{ backgroundColor: '#282c34', color: '#fff', textAlign: 'center', height: 30 }}>
+          Copyright 2019. Trade Link Capital, Inc.
+        </div>
+
+        <div style={{ backgroundColor: '#282c34', color: '#fff', textAlign: 'center', height: 30 }}>
+          follow us @tradelinkapp
+        </div>
+      
+
+
+
     </div>
 
 
+
+
   );
+
 }
 
 export default App;

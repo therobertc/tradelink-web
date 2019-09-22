@@ -20,13 +20,13 @@ class NameForm extends React.Component {
   
     render() {
       return (
-        <form style={{ paddingBottom: 25 }}onSubmit={this.handleSubmit}>
+        <form style={{  }}onSubmit={this.handleSubmit}>
           
             <input style={{ borderWidth: 0, borderRadius: 20, height: 40, width: 300, fontSize: '16px', paddingLeft: 20, paddingRight: 20}} placeholder=' Enter a phone number' type="text" value={this.state.value} onChange={this.handleChange}/>
             
             
 
-          <input style={{ borderRadius: 20, height: 40, width: 100, marginLeft: '20px', fontSize: 16, backgroundColor: '#147efb', borderWidth: 0, marginRight: 5, textAlign: 'center'}} type="submit" value="Download"/>
+          <input style={{ color: '#fff', fontWeight: '500', borderRadius: 20, height: 40, width: 100, marginLeft: '20px', fontSize: 16, backgroundColor: '#147efb', borderWidth: 0, marginRight: 5, textAlign: 'center', alignItems: 'center'}} type="submit" value="Sign Up"/>
         </form>
       );
     }
