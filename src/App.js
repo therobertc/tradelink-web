@@ -69,7 +69,7 @@ function App() {
       <header className="App-header">
 
         <h1 style={{ paddingTop: 20, fontSize: 50, paddingBottom: 20, width: 500 }}>
-          The simplest way to start a trading group.
+          We make it easy to start a trading group.
         </h1>
 
         <p style={{ paddingBottom: 50 }}>
@@ -94,12 +94,12 @@ function App() {
         </a>*/}
       </header>
 
-
+      <h1 style={{ textAlign: 'center', fontSize: 50 }}>
+        How it works
+        </h1>
 
 
       <div style={{ display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between', align: 'center', paddingLeft: 200, paddingRight: 200, height: 300, alignItems: 'center' }}>
-
-
 
 
         <h1 style={{ textAlign: 'center' }}>
@@ -110,9 +110,9 @@ function App() {
         </h1>
 
         <h1 style={{ textAlign: 'center', paddingLeft: 30, paddingRight: 30 }}>
-          Send Alerts
+          Send Updates
             <p style={{ fontSize: 22 }}>
-            Access live market data and send alerts to your subscribers in real-time.
+            Access live market data and send updates to your subscribers in real-time.
           </p>
         </h1>
 
@@ -122,6 +122,51 @@ function App() {
             We make it easy to start a paid group whenever you're ready.
           </p>
         </h1>
+
+      </div>
+
+      <div style={{ backgroundColor: '#282c34', display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between', align: 'center', paddingLeft: 100, paddingRight: 200, height: 300, alignItems: 'center' }}>
+
+
+
+
+        <h1 style={{ color: '#fff', fontSize: 50, width: 500 }}>
+          Ready to start a trading group?
+        </h1>
+
+        <NameForm />
+      </div>
+
+      <h1 style={{ textAlign: 'center', fontSize: 50 }}>
+        About Tradelink
+        </h1>
+
+
+      <div style={{ display: 'flex', flex: 2, flexDirection: 'row', justifyContent: 'space-between', align: 'center', paddingLeft: 200, paddingRight: 200, height: 300, alignItems: 'center' }}>
+
+
+        <h1 style={{ textAlign: 'center' }}>
+          Groups
+            <p style={{ fontSize: 22 }}>
+            Groups are the best way to bring people together. Until now, there hasn't been a unique place for groups of traders to connect and share ideas. 
+          </p>
+        </h1>
+
+        <h1 style={{ textAlign: 'center', paddingLeft: 30, paddingRight: 30 }}>
+          Subscriptions
+            <p style={{ fontSize: 22 }}>
+            Direct subscriptions are a better business model for community. It puts the user in control, and helps you make more money.
+          </p>
+        </h1>
+
+        <h1 style={{ textAlign: 'center' }}>
+         Global Markets
+          <p style={{ fontSize: 22 }}>
+            The global financial market is naturally a collaborative environment. We belive market updates should be shared with the world. 
+          </p>
+        </h1>
+
+        
 
       </div>
 

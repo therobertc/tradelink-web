@@ -14,7 +14,7 @@ class NameForm extends React.Component {
     }
   
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
+      alert('An invite link will be sent shortly: ' + this.state.value);
       event.preventDefault();
     }
   
