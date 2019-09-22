@@ -105,7 +105,7 @@ function App() {
         <h1 style={{ textAlign: 'center' }}>
           Find Subscribers
             <p style={{ fontSize: 22 }}>
-            If you already have a group, it's easy to switch to Tradelink.
+            If you already have a group, it's easy to add it to Tradelink.
           </p>
         </h1>
 
@@ -148,7 +148,7 @@ function App() {
         <h1 style={{ textAlign: 'center' }}>
           Groups
             <p style={{ fontSize: 22 }}>
-            Groups are the best way to bring people together. Until now, there hasn't been a unique place for groups of traders to connect and share ideas. 
+            Groups are the best way to bring people together. We created a unique place for groups of traders to connect and share ideas. 
           </p>
         </h1>
 
@@ -162,7 +162,7 @@ function App() {
         <h1 style={{ textAlign: 'center' }}>
          Global Markets
           <p style={{ fontSize: 22 }}>
-            The global financial market is naturally a collaborative environment. We belive market updates should be shared with the world. 
+            The global financial market is a collaborative environment. We believe market updates should be shared with the world. 
           </p>
         </h1>
 
