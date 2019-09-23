@@ -73,7 +73,7 @@ function App() {
         </h1>
 
         <p style={{ paddingBottom: 50 }}>
-          Find subscribers, send alerts, get paid.
+          Find subscribers, send updates, get paid.
         </p>
 
         <NameForm />
