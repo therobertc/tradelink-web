@@ -1,0 +1,24 @@
+.Header {
+  background-color: #282c34;
+  min-height: 800;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: 600;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.Header h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+
+.Header p {
+  padding-bottom: 50px;
+}

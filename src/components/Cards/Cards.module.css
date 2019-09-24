@@ -1,0 +1,28 @@
+.CardsTitle {
+  height: 20px;
+  background-color: #282c34;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.CardsContainer {
+  display: flex;
+  background-color: #282c34;
+  min-width: 100%;
+  min-height: 100px;
+  overflow-x: auto;
+  padding-left: 20;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.Card {
+  background-color: #e1e8ed;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  border-radius: 30px;
+  text-align: center;
+}

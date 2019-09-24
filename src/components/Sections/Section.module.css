@@ -1,0 +1,27 @@
+.SectionTitle {
+  text-align: center;
+  font-size: 50px;
+}
+
+.SectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  min-height: 300px;
+}
+
+.SectionItem {
+  text-align: center;
+}
+
+.SectionItem:nth-child(2) {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.SectionItem p {
+  font-size: 22px;
+}
