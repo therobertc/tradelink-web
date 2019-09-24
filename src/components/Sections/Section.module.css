@@ -49,6 +49,11 @@
   .SectionContainer {
     flex-direction: column;
   }
+
+  .SectionItem:nth-child(2) {
+    padding: 0;
+  }
+
   .SectionItem p {
     text-align: left;
   }
