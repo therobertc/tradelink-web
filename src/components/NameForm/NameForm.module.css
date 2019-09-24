@@ -1,4 +1,4 @@
-.NameForm input[type="text"] {
+.NameForm input {
   border: 0;
   border-radius: 20px;
   height: 40px;
@@ -8,7 +8,7 @@
   padding-left: 20px;
 }
 
-.NameForm input[type="submit"] {
+.NameForm button {
   color: #fff;
   font-weight: 500;
   border-radius: 20px;
@@ -30,22 +30,22 @@
 }
 
 @media (max-width: 860px) {
-  .NameForm input[type="text"] {
+  .NameForm input {
     width: 200px;
   }
 
-  .NameForm input[type="submit"] {
+  .NameForm button {
     margin-left: 15px;
     margin-right: 0;
   }
 }
 
 @media (max-width: 640px) {
-  .NameForm input[type="text"] {
+  .NameForm input {
     width: 200px;
   }
 
-  .NameForm input[type="submit"] {
+  .NameForm button {
     margin-left: 15px;
     margin-right: 0;
   }
@@ -55,11 +55,11 @@
   .NameForm {
     justify-content: center;
   }
-  .NameForm input[type="text"] {
+  .NameForm input {
     width: 75%;
   }
 
-  .NameForm input[type="submit"] {
+  .NameForm button {
     margin-left: 10px;
     width: 25%;
   }

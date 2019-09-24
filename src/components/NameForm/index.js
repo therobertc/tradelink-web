@@ -19,7 +19,7 @@ const NameForm = () => {
         value={value}
         onChange={handleChange}
       />
-      <input type="submit" value="Sign Up" />
+      <button type="submit">Sign Up</button>
     </form>
   );
 };
