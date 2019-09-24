@@ -1,0 +1,50 @@
+.Reminder {
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 200px;
+  min-height: 300px;
+}
+
+.Reminder > h1 {
+  color: #fff;
+  font-size: 50px;
+  max-width: 500px;
+}
+
+@media (max-width: 1200px) {
+  .Reminder {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 860px) {
+  .Reminder {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Reminder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 0;
+    padding-bottom: 30px;
+  }
+
+  .Reminder > h1 {
+    font-size: 40px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Reminder {
+    align-items: stretch;
+  }
+}

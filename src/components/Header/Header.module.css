@@ -1,0 +1,60 @@
+.Header {
+  background-color: #282c34;
+  min-height: 800;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: 600;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.Header h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  padding-bottom: 20px;
+  max-width: 500px;
+}
+
+.Header p {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 860px) {
+  .Header {
+    padding: 0 5%;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+
+  .Header h1 {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Header h1 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .Header p {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Header h1 {
+    max-width: 85%;
+    padding-bottom: 10px;
+  }
+
+  .Header p {
+    padding-bottom: 15px;
+  }
+}
