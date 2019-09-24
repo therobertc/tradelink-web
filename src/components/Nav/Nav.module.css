@@ -1,0 +1,69 @@
+.Nav {
+  background-color: #282c34;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav img {
+  height: 120px;
+  width: 350px;
+}
+
+.Nav input {
+  height: 40px;
+  width: 150px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #147efb;
+  margin-right: 50px;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .Nav {
+    padding: 0 5%;
+    align-items: center;
+  }
+
+  .Nav img {
+    height: 90px;
+    width: 262.5px;
+  }
+
+  .Nav input {
+    margin-top: 0;
+    margin-right: 2.5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Nav img {
+    height: 60px;
+    width: 175px;
+  }
+
+  .Nav input {
+    height: 40px;
+    width: 150px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .Nav img {
+    height: 45px;
+    width: 131.25px;
+  }
+
+  .Nav input {
+    height: 30px;
+    width: 120px;
+    margin-right: 0;
+  }
+}

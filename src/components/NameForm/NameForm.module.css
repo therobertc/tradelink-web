@@ -1,0 +1,65 @@
+.NameForm input[type="text"] {
+  border: 0;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.NameForm input[type="submit"] {
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  background: #147efb;
+  border: 0;
+  margin-left: 20px;
+  margin-right: 5px;
+  text-align: "center";
+}
+
+@media (max-width: 1270px) {
+  .NameForm {
+    display: flex;
+  }
+}
+
+@media (max-width: 860px) {
+  .NameForm input[type="text"] {
+    width: 200px;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .NameForm input[type="text"] {
+    width: 200px;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .NameForm {
+    justify-content: center;
+  }
+  .NameForm input[type="text"] {
+    width: 75%;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 10px;
+    width: 25%;
+  }
+}
