@@ -18,7 +18,8 @@
   border-radius: 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #147efb;
+  background-color: #147efb !important;
+  background: #147efb !important;
   margin-right: 50px;
   margin-top: 30px;
   text-align: center;
