@@ -15,7 +15,8 @@
   height: 40px;
   width: 100px;
   font-size: 16px;
-  background: #147efb;
+  background-color: #147efb !important;
+  background: #147efb !important;
   border: 0;
   margin-left: 20px;
   margin-right: 5px;
