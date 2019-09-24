@@ -40,27 +40,18 @@
   }
 }
 
-@media (max-width: 640px) {
-  .NameForm input {
-    width: 200px;
-  }
-
-  .NameForm button {
-    margin-left: 15px;
-    margin-right: 0;
-  }
-}
-
 @media (max-width: 480px) {
   .NameForm {
     justify-content: center;
   }
   .NameForm input {
-    width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: calc(100% - 110px);
   }
 
   .NameForm button {
     margin-left: 10px;
-    width: 25%;
+    width: 100px;
   }
 }
