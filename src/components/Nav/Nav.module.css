@@ -10,7 +10,7 @@
   width: 350px;
 }
 
-.Nav input {
+.Nav button {
   height: 40px;
   width: 150px;
   font-weight: 500;
@@ -37,7 +37,7 @@
     width: 262.5px;
   }
 
-  .Nav input {
+  .Nav button {
     margin-top: 0;
     margin-right: 2.5%;
   }
@@ -49,7 +49,7 @@
     width: 175px;
   }
 
-  .Nav input {
+  .Nav button {
     height: 40px;
     width: 150px;
     margin-right: 0;
@@ -62,7 +62,7 @@
     width: 131.25px;
   }
 
-  .Nav input {
+  .Nav button {
     height: 30px;
     width: 120px;
     margin-right: 0;

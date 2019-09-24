@@ -5,7 +5,7 @@ import classes from "./Nav.module.css";
 const Nav = () => (
   <nav className={classes.Nav}>
     <img src={tradelinklogo} alt="tradelink logo" />
-    <input type="submit" value="Get Started" />
+    <button type="submit">Get Started</button>
   </nav>
 );
 
