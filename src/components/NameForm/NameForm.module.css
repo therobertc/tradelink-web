@@ -21,3 +21,45 @@
   margin-right: 5px;
   text-align: "center";
 }
+
+@media (max-width: 1270px) {
+  .NameForm {
+    display: flex;
+  }
+}
+
+@media (max-width: 860px) {
+  .NameForm input[type="text"] {
+    width: 200px;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .NameForm input[type="text"] {
+    width: 200px;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .NameForm {
+    justify-content: center;
+  }
+  .NameForm input[type="text"] {
+    width: 75%;
+  }
+
+  .NameForm input[type="submit"] {
+    margin-left: 10px;
+    width: 25%;
+  }
+}

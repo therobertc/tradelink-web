@@ -25,3 +25,37 @@
 .SectionItem p {
   font-size: 22px;
 }
+
+@media (max-width: 1200px) {
+  .SectionContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 860px) {
+  .SectionContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .SectionItem:nth-child(2) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .SectionContainer {
+    flex-direction: column;
+  }
+  .SectionItem p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .SectionTitle {
+    font-size: 40px;
+  }
+}

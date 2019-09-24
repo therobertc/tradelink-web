@@ -1,12 +1,7 @@
 .Nav {
-  text-align: left;
   background-color: #282c34;
-  /*background-color: #147efb;
-  /*height: 50px;*/
-  padding-left: 50px;
+  padding: 0 50px;
   display: flex;
-  flex: 2;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -24,7 +19,51 @@
   font-size: 16px;
   color: #fff;
   background-color: #147efb;
-  margin: 30px 100px 0 20px;
+  margin-right: 50px;
+  margin-top: 30px;
   text-align: center;
   align-items: center;
+}
+
+@media (max-width: 860px) {
+  .Nav {
+    padding: 0 5%;
+    align-items: center;
+  }
+
+  .Nav img {
+    height: 90px;
+    width: 262.5px;
+  }
+
+  .Nav input {
+    margin-top: 0;
+    margin-right: 2.5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Nav img {
+    height: 60px;
+    width: 175px;
+  }
+
+  .Nav input {
+    height: 40px;
+    width: 150px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .Nav img {
+    height: 45px;
+    width: 131.25px;
+  }
+
+  .Nav input {
+    height: 30px;
+    width: 120px;
+    margin-right: 0;
+  }
 }
