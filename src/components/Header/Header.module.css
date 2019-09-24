@@ -49,8 +49,13 @@
 }
 
 @media (max-width: 480px) {
+  .Header {
+    text-align: center;
+  }
+
   .Header h1 {
-    max-width: 85%;
+    max-width: 100%;
+    text-align: center;
     padding-bottom: 10px;
   }
 
