@@ -1,0 +1,65 @@
+.Text {
+    font-size: 16px;
+    color: '#fff';
+    padding-left: 100,
+
+}
+
+.GroupForm input {
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .GroupForm button {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    background-color: #147efb !important;
+    background: #147efb !important;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 5px;
+    text-align: "center";
+  }
+  
+  @media (max-width: 1270px) {
+    .GroupForm {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 860px) {
+    .GroupForm input {
+      width: 200px;
+    }
+  
+    .GroupForm button {
+      margin-left: 15px;
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .GroupForm {
+      justify-content: center;
+    }
+    .GroupForm input {
+      padding-right: 10px;
+      padding-left: 10px;
+      width: calc(100% - 110px);
+    }
+  
+    .GroupForm button {
+      margin-left: 10px;
+      width: 100px;
+    }
+  }
+  
