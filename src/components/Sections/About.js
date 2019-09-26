@@ -24,8 +24,7 @@ const About = () => (
       <h1 className={classes.SectionItem}>
         Global Markets
         <p>
-          The global financial market is a collaborative environment. We believe market updates
-          should be shared with the world.
+           We want to help connect the world through trading groups so that everyone can stay updated on global markets. 
         </p>
       </h1>
     </div>

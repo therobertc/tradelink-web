@@ -18,8 +18,8 @@ const Home = () => (
     <Nav />
     {/*<Cards />*/}
 
-    <div style={{ height: 800, justifyContent: 'center', display: 'flex', flexDirection: 'column', alignContent: 'right' }}>
-      <div style={{ backgroundColor: '#282c34', height: 600, borderRadius: 50, alignSelf: 'center' }}>
+    <div style={{ height: 800, justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ backgroundColor: '#282c34', height: 600, borderRadius: 50, alignSelf: 'center' /*alignSelf: 'flex-end', marginRight: 200*/ }}>
 
         <div style={{ margin: 50 }}>
 
@@ -98,7 +98,7 @@ const Home = () => (
 
           <form style={{ textAlign: 'center', color: '#fff' }}>
             <input style={{
-              textAlign: 'left', color: '#fff',
+              textAlign: 'left',
               border: 0,
               borderRadius: 20,
               height: 40,
@@ -107,7 +107,7 @@ const Home = () => (
               paddingRight: 20,
               paddingLeft: 20
             }}
-              placeholder=" $5.00"
+              placeholder=" $7.00"
               type="text"
 
             />

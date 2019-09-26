@@ -15,13 +15,15 @@
 
 .Header h1 {
   padding-top: 20px;
-  font-size: 50px;
+  font-size: 60px;
   padding-bottom: 20px;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .Header p {
   padding-bottom: 50px;
+  font-size: 35px;
+  
 }
 
 @media (max-width: 860px) {
@@ -38,24 +40,28 @@
 
 @media (max-width: 640px) {
   .Header h1 {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
   .Header p {
     padding-bottom: 30px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .Header {
+    /*text-align: center;*/
     text-align: center;
   }
 
   .Header h1 {
     max-width: 100%;
+    /*text-align: center;*/
     text-align: center;
+
     padding-bottom: 10px;
   }
 

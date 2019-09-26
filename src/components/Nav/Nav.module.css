@@ -3,6 +3,8 @@
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
+  padding-right: 200px;
+  padding-left: 200px
 }
 
 .Nav img {
