@@ -3,8 +3,8 @@ import classes from "./Footer.module.css";
 //import tradelinklogo from "assets/img/tradelinklogo.png";
 
 
-const updateLocation = path => window.location.pathname !== path && window.location.assign(path);
-const goHome = () => updateLocation("/");
+//const updateLocation = path => window.location.pathname !== path && window.location.assign(path);
+//const goHome = () => updateLocation("/");
 
 const Footer = () => (
   <footer className={classes.Footer}>
